@@ -1,0 +1,13 @@
+# ############################################################################ #
+# tspigui - Simple, touch-screen Raspberry Pi GUI for personal projects        #
+# pareidolia.es, 2020                                                          #
+# ############################################################################ #
+
+lib/ is where required libraries should come
+
+So far only guizero is needed; it may be taken from its master repository
+https://lawsie.github.io/guizero/ or PIP-installed, i.e.
+
+# pip3 install -t . guizero
+
+# ############################################################################ #

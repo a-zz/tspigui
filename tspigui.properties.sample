@@ -1,0 +1,20 @@
+# ############################################################################ #
+# tspigui - Simple, touch-screen Raspberry Pi GUI for personal projects        #
+# pigui.pproperties - Configuration file                                       #
+# pareidolia.es, 2020                                                          #
+# ############################################################################ #
+# Both static & dynamic properties are allowed, the later being written to
+#   this file at shut down. Static properties are recognized by a key ending
+#   with .ro, e.g.
+
+gui.title.ro = Simple, touch-screen Raspberry Pi GUI for personal projects
+
+# GUI properties ############################################################# #
+# GUI geometry: 'widthxheight', or 'fs' for full screen
+gui.geometry.ro = 640x400
+# GUI background colour (#rgb)
+gui.bg.ro = #333333
+# OS halt and reboot commands
+gui.cmd.os.halt.ro = sudo halt
+gui.cmd.os.reboot.ro = sudo reboot
+# ############################################################################ #
