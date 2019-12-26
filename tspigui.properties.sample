@@ -14,7 +14,7 @@ gui.title.ro = Simple, touch-screen Raspberry Pi GUI for personal projects
 gui.geometry.ro = 640x400
 # GUI background colour (#rgb)
 gui.bg.ro = #333333
-# OS halt and reboot commands
+# External tools & commands
 gui.cmd.os.halt.ro = sudo halt
 gui.cmd.os.reboot.ro = sudo reboot
 # ############################################################################ #
