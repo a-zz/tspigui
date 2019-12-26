@@ -7,11 +7,11 @@ It will likely feature flexible widget-modules support for extending the GUI fun
 
 ## Deployment
 
-  # git clone https://github.com/a-zz/tspigui
-  # cd tspigui
-  # pip3 install -t lib/ guizero
-  # cp tspigui.properties.sample tspigui.properties
-  # ./tspigui.py
+  $ git clone https://github.com/a-zz/tspigui
+  $ cd tspigui
+  $ pip3 install -t lib/ guizero
+  $ cp tspigui.properties.sample tspigui.properties
+  $ ./tspigui.py
 
 You may also want to add a tspigui.desktop file to ~/.config/autostart to get the GUI launched at PI startup, and customize your 
 tspigui.properties file to suit your needs.
